@@ -6,7 +6,10 @@ This tool searches for exact and approximate matches of a given pattern in a gen
 
 ## Features
 - **Exact pattern matching** using the Knuth-Morris-Pratt (KMP) algorithm.
-- **Approximate pattern matching** (allowing up to one mismatch: substitution, insertion, or deletion).
+- **Approximate pattern matching** using an optimized edit distance function (`quick_distance`).
+  - Allows up to one mismatch, including **substitution, insertion, or deletion**.
+  - Uses early termination to improve efficiency, stopping when more than one mismatch is found.
+  - Efficiently determines the edit type: **'S' for substitution, 'I' for insertion, and 'D' for deletion**.
 - **Multi-threaded processing** for large genome datasets.
 - **Support for compressed and zipped genome files**.
 - **Performance tracking** with runtime and memory usage statistics.
@@ -23,10 +26,11 @@ Clone this repository and navigate into the project folder:
 ```bash
 git clone https://github.com/ashhadm/CS_249.git
 cd Week_1
+
 ```
 
 ## Usage
-Run the script using the provided shell script and input the path to the genome and search pattern:
+Run the script using the provided shell script and provide the path to the genome and the pattern to be searched:
 ```bash
 ./run_search.sh <genome_file.zip> <pattern.fna> <num_cores>
 ```
@@ -52,7 +56,7 @@ This script performs the following operations:
 1. Reads the genome file (supports ZIP and GZ formats).
 2. Reads the pattern from the `.fna` file.
 3. Uses the KMP algorithm for exact matches.
-4. Identifies mismatched matches (allowing up to one edit distance).
+4. Identifies mismatched matches (allowing up to one edit distance) using the `quick_distance` function.
 5. Outputs detailed results in `all_matches.txt`.
 
 ### `run_search.sh`
@@ -65,5 +69,6 @@ This shell script automates execution and profiling:
 This project is licensed under the MIT License.
 
 ## Author
-Mohammad Ashhad
+Mohd Ashhad
 
+For any issues or contributions, feel free to submit a pull request or open an issue.
