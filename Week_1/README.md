@@ -21,12 +21,12 @@ Make sure you have the following dependencies installed:
 ## Installation
 Clone this repository and navigate into the project folder:
 ```bash
-git clone https://github.com/your-repo/genome-search.git
-cd genome-search
+git clone https://github.com/ashhadm/CS_249.git
+cd Week_1
 ```
 
 ## Usage
-Run the script using the provided shell script:
+Run the script using the provided shell script and input the path to the genome and search pattern:
 ```bash
 ./run_search.sh <genome_file.zip> <pattern.fna> <num_cores>
 ```
