@@ -1,0 +1,43 @@
+Pattern used: GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGCGTGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+Phase 1 (Exact matches) time: 47.68 seconds
+Phase 2 (Mismatched matches) time: 2738.35 seconds
+Total runtime: 2811.46 seconds
+
+Exact matches by chromosome:
+NC_060931.1: 1 matches at positions [39966041]
+NC_060926.1: 1 matches at positions [186833277]
+
+Mismatched matches by chromosome:
+NC_060945.1: 1 matches with details:
+  Position 24874951: S (S=substitution, I=insertion, D=deletion)
+NC_060942.1: 1 matches with details:
+  Position 66026304: S (S=substitution, I=insertion, D=deletion)
+NC_060941.1: 2 matches with details:
+  Position 2142369: S (S=substitution, I=insertion, D=deletion)
+  Position 19541649: S (S=substitution, I=insertion, D=deletion)
+NC_060938.1: 1 matches with details:
+  Position 17947515: S (S=substitution, I=insertion, D=deletion)
+NC_060937.1: 1 matches with details:
+  Position 66839102: S (S=substitution, I=insertion, D=deletion)
+NC_060936.1: 2 matches with details:
+  Position 62817411: S (S=substitution, I=insertion, D=deletion)
+  Position 79100751: S (S=substitution, I=insertion, D=deletion)
+NC_060935.1: 1 matches with details:
+  Position 86916177: S (S=substitution, I=insertion, D=deletion)
+NC_060932.1: 1 matches with details:
+  Position 101916771: S (S=substitution, I=insertion, D=deletion)
+NC_060931.1: 1 matches with details:
+  Position 49189460: S (S=substitution, I=insertion, D=deletion)
+NC_060930.1: 2 matches with details:
+  Position 51234801: S (S=substitution, I=insertion, D=deletion)
+  Position 68212687: S (S=substitution, I=insertion, D=deletion)
+NC_060929.1: 1 matches with details:
+  Position 126911808: S (S=substitution, I=insertion, D=deletion)
+NC_060928.1: 1 matches with details:
+  Position 136221657: S (S=substitution, I=insertion, D=deletion)
+NC_060927.1: 1 matches with details:
+  Position 69350794: S (S=substitution, I=insertion, D=deletion)
+NC_060925.1: 2 matches with details:
+  Position 143946938: S (S=substitution, I=insertion, D=deletion)
+  Position 190858894: S (S=substitution, I=insertion, D=deletion)

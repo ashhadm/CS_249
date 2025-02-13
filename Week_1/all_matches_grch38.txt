@@ -1,0 +1,37 @@
+Pattern used: GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGCGTGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+Phase 1 (Exact matches) time: 49.22 seconds
+Phase 2 (Mismatched matches) time: 2744.20 seconds
+Total runtime: 2819.10 seconds
+
+Exact matches by chromosome:
+NC_000017.11: 1 matches at positions [18689763]
+NC_000007.14: 1 matches at positions [39808489]
+NC_000003.12: 1 matches at positions [88629832]
+
+Mismatched matches by chromosome:
+NT_187536.1: 1 matches with details:
+  Position 54847: S (S=substitution, I=insertion, D=deletion)
+NC_000021.9: 1 matches with details:
+  Position 26516833: S (S=substitution, I=insertion, D=deletion)
+NC_000017.11: 1 matches with details:
+  Position 19593503: S (S=substitution, I=insertion, D=deletion)
+NC_000015.10: 1 matches with details:
+  Position 53225105: S (S=substitution, I=insertion, D=deletion)
+NC_000014.9: 1 matches with details:
+  Position 34836097: S (S=substitution, I=insertion, D=deletion)
+NC_000013.11: 1 matches with details:
+  Position 63082060: S (S=substitution, I=insertion, D=deletion)
+NC_000012.12: 1 matches with details:
+  Position 62838639: S (S=substitution, I=insertion, D=deletion)
+NC_000008.11: 1 matches with details:
+  Position 100790760: S (S=substitution, I=insertion, D=deletion)
+NC_000005.10: 1 matches with details:
+  Position 125028156: S (S=substitution, I=insertion, D=deletion)
+NC_000004.12: 1 matches with details:
+  Position 132898458: S (S=substitution, I=insertion, D=deletion)
+NC_000003.12: 1 matches with details:
+  Position 69313857: S (S=substitution, I=insertion, D=deletion)
+NC_000001.11: 2 matches with details:
+  Position 85940122: S (S=substitution, I=insertion, D=deletion)
+  Position 144846234: S (S=substitution, I=insertion, D=deletion)

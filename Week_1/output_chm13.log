@@ -1,0 +1,407 @@
+
+Pattern verification:
+Pattern length: 311
+Pattern: GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGCGTGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Attempting to read: human_2.zip
+Files in zip: ['README.md', 'ncbi_dataset/data/data_summary.tsv', 'ncbi_dataset/data/assembly_data_report.jsonl', 'ncbi_dataset/data/GCA_009914755.4/GCA_009914755.4_T2T-CHM13v2.0_genomic.fna', 'ncbi_dataset/data/GCF_009914755.1/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna', 'ncbi_dataset/data/dataset_catalog.json', 'md5sum.txt']
+Processing FASTA file: ncbi_dataset/data/GCF_009914755.1/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna
+
+Sequence verification for NC_060925.1:
+First 50 bases: CACCCTAAACCCTAACCCCTAACCCTAACCCTAACCCTAACCCTAACCCT
+Sequence length: 248387328
+
+Sequence verification for NC_060926.1:
+First 50 bases: TAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+Sequence length: 242696752
+
+Sequence verification for NC_060927.1:
+First 50 bases: TCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCC
+Sequence length: 201105948
+
+Sequence verification for NC_060928.1:
+First 50 bases: ATAACCCTAACCCTAACCCTAACCCTAACCCTCAAACCCTAACCCTAACC
+Sequence length: 193574945
+
+Sequence verification for NC_060929.1:
+First 50 bases: CTAACCCTAACCCTAACCCTAACCTAACCTACCTAACCTACCTAACCCTA
+Sequence length: 182045439
+
+Sequence verification for NC_060930.1:
+First 50 bases: CCTAACCAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+Sequence length: 172126628
+
+Sequence verification for NC_060931.1:
+First 50 bases: CCTAACCCTAACCCTAACCCCTAACCCTAACCCTAATCCCCTAACCCTCC
+Sequence length: 160567428
+
+Sequence verification for NC_060932.1:
+First 50 bases: CTAACCCCTAACCCTAAACCCTAACCCTAACCCTAACCCTAACCCTAACC
+Sequence length: 146259331
+
+Sequence verification for NC_060933.1:
+First 50 bases: CTAACCCTAACCCTAACCCTAACCCTAACCCTAACCTAACCCTAACCCTA
+Sequence length: 150617247
+
+Sequence verification for NC_060934.1:
+First 50 bases: CTAACCCTAACCCTAACCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+Sequence length: 134758134
+
+Sequence verification for NC_060935.1:
+First 50 bases: TAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+Sequence length: 135127769
+
+Sequence verification for NC_060936.1:
+First 50 bases: ACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAAC
+Sequence length: 133324548
+
+Sequence verification for NC_060937.1:
+First 50 bases: CCCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAAC
+Sequence length: 113566686
+
+Sequence verification for NC_060938.1:
+First 50 bases: CTAACCCTAACCCTAACCCTAACCCTACCCTAACCCTAACCCTAACCCTA
+Sequence length: 101161492
+
+Sequence verification for NC_060939.1:
+First 50 bases: CTAACCCTAACCCTAACCCTAACCCCTAACCAACCCTAACCCTAACCCTA
+Sequence length: 99753195
+
+Sequence verification for NC_060940.1:
+First 50 bases: CTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCT
+Sequence length: 96330374
+
+Sequence verification for NC_060941.1:
+First 50 bases: CCTAACCCTAACCCATAACCCTAACCCTAACCTACCCTAACCCTAACCCT
+Sequence length: 84276897
+
+Sequence verification for NC_060942.1:
+First 50 bases: CCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCC
+Sequence length: 80542538
+
+Sequence verification for NC_060943.1:
+First 50 bases: TAACCCTAACCCTAACACCCTAACCCTAACCTACCCTAACCCTAACCCTA
+Sequence length: 61707364
+
+Sequence verification for NC_060944.1:
+First 50 bases: AACCCTAACCCTAACCCTAACCCTACCCTAACCCTAACCCTAACCCTAAC
+Sequence length: 66210255
+
+Sequence verification for NC_060945.1:
+First 50 bases: AAACCCGTAACCCTAACCCGTAACCCTAACCGTCTAACCCTAACCTAACC
+Sequence length: 45090682
+
+Sequence verification for NC_060946.1:
+First 50 bases: AAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+Sequence length: 51324926
+
+Sequence verification for NC_060947.1:
+First 50 bases: ACCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACC
+Sequence length: 154259566
+
+Sequence verification for NC_060948.1:
+First 50 bases: TAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+Sequence length: 62460029
+
+Found 24 chromosomes
+
+Phase 1: Finding exact matches...
+
+Processing exact matches for NC_060945.1:
+Sequence length: 45,090,682 bases
+
+Exact Match Progress (2025-02-13 21:59:31.024927):
+Processed 1/24 chromosomes (4.17%)
+Total bases processed: 0.05 Gb
+Current speed: 5,474,114 bases/second
+
+Processing exact matches for NC_060946.1:
+Sequence length: 51,324,926 bases
+
+Processing exact matches for NC_060944.1:
+Sequence length: 66,210,255 bases
+
+Processing exact matches for NC_060948.1:
+Sequence length: 62,460,029 bases
+
+Processing exact matches for NC_060943.1:
+Sequence length: 61,707,364 bases
+
+Processing exact matches for NC_060942.1:
+Sequence length: 80,542,538 bases
+
+Processing exact matches for NC_060941.1:
+Sequence length: 84,276,897 bases
+
+Processing exact matches for NC_060939.1:
+Sequence length: 99,753,195 bases
+
+Processing exact matches for NC_060938.1:
+Sequence length: 101,161,492 bases
+
+Processing exact matches for NC_060940.1:
+Sequence length: 96,330,374 bases
+
+Processing exact matches for NC_060937.1:
+Sequence length: 113,566,686 bases
+
+Processing exact matches for NC_060935.1:
+Sequence length: 135,127,769 bases
+
+Exact Match Progress (2025-02-13 21:59:43.746678):
+Processed 12/24 chromosomes (50.00%)
+Total bases processed: 1.00 Gb
+Current speed: 5,586,417 bases/second
+
+Processing exact matches for NC_060934.1:
+Sequence length: 134,758,134 bases
+
+Processing exact matches for NC_060932.1:
+Sequence length: 146,259,331 bases
+
+Processing exact matches for NC_060936.1:
+Sequence length: 133,324,548 bases
+
+Processing exact matches for NC_060933.1:
+Sequence length: 150,617,247 bases
+
+Processing exact matches for NC_060931.1:
+Sequence length: 160,567,428 bases
+
+Processing exact matches for NC_060930.1:
+Sequence length: 172,126,628 bases
+
+Processing exact matches for NC_060929.1:
+Sequence length: 182,045,439 bases
+
+Processing exact matches for NC_060928.1:
+Sequence length: 193,574,945 bases
+
+Processing exact matches for NC_060927.1:
+Sequence length: 201,105,948 bases
+
+Processing exact matches for NC_060947.1:
+Sequence length: 154,259,566 bases
+
+Processing exact matches for NC_060925.1:
+Sequence length: 248,387,328 bases
+
+Exact Match Progress (2025-02-13 21:59:57.609751):
+Processed 23/24 chromosomes (95.83%)
+Total bases processed: 2.87 Gb
+Current speed: 5,553,891 bases/second
+
+Phase 1 Complete:
+Total exact matches found: 2
+Time taken: 47.68 seconds
+
+Phase 2: Finding mismatched matches...
+
+Processing mismatched matches for NC_060945.1:
+Sequence length: 45,090,682 bases
+
+Mismatch Progress (2025-02-13 22:08:50.668765):
+Processed 1/24 chromosomes (4.17%)
+Total bases processed: 0.05 Gb
+Current speed: 86,729 bases/second
+Found 1 mismatched matches in NC_060945.1
+
+Processing mismatched matches for NC_060946.1:
+Sequence length: 51,324,926 bases
+
+Mismatch Progress (2025-02-13 22:09:52.360155):
+Processed 2/24 chromosomes (8.33%)
+Total bases processed: 0.10 Gb
+Current speed: 88,279 bases/second
+
+Processing mismatched matches for NC_060943.1:
+Sequence length: 61,707,364 bases
+
+Mismatch Progress (2025-02-13 22:11:57.933657):
+Processed 3/24 chromosomes (12.50%)
+Total bases processed: 0.16 Gb
+Current speed: 87,205 bases/second
+
+Processing mismatched matches for NC_060948.1:
+Sequence length: 62,460,029 bases
+
+Processing mismatched matches for NC_060944.1:
+Sequence length: 66,210,255 bases
+
+Mismatch Progress (2025-02-13 22:12:57.280867):
+Processed 5/24 chromosomes (20.83%)
+Total bases processed: 0.29 Gb
+Current speed: 86,356 bases/second
+
+Processing mismatched matches for NC_060941.1:
+Sequence length: 84,276,897 bases
+
+Mismatch Progress (2025-02-13 22:16:02.481733):
+Processed 7/24 chromosomes (29.17%)
+Total bases processed: 0.45 Gb
+Current speed: 88,464 bases/second
+Found 2 mismatched matches in NC_060941.1
+
+Processing mismatched matches for NC_060942.1:
+Sequence length: 80,542,538 bases
+
+Mismatch Progress (2025-02-13 22:15:17.776729):
+Processed 6/24 chromosomes (25.00%)
+Total bases processed: 0.37 Gb
+Current speed: 88,734 bases/second
+Found 1 mismatched matches in NC_060942.1
+
+Processing mismatched matches for NC_060940.1:
+Sequence length: 96,330,374 bases
+
+Mismatch Progress (2025-02-13 22:18:18.422517):
+Processed 8/24 chromosomes (33.33%)
+Total bases processed: 0.55 Gb
+Current speed: 88,464 bases/second
+
+Processing mismatched matches for NC_060939.1:
+Sequence length: 99,753,195 bases
+
+Mismatch Progress (2025-02-13 22:19:03.357485):
+Processed 9/24 chromosomes (37.50%)
+Total bases processed: 0.65 Gb
+Current speed: 87,948 bases/second
+
+Processing mismatched matches for NC_060938.1:
+Sequence length: 101,161,492 bases
+
+Processing mismatched matches for NC_060937.1:
+Sequence length: 113,566,686 bases
+
+Mismatch Progress (2025-02-13 22:21:51.514783):
+Processed 11/24 chromosomes (45.83%)
+Total bases processed: 0.86 Gb
+Current speed: 87,148 bases/second
+Found 1 mismatched matches in NC_060937.1
+
+Processing mismatched matches for NC_060936.1:
+Sequence length: 133,324,548 bases
+
+Mismatch Progress (2025-02-13 22:24:43.810961):
+Processed 12/24 chromosomes (50.00%)
+Total bases processed: 1.00 Gb
+Current speed: 90,336 bases/second
+Found 2 mismatched matches in NC_060936.1
+
+Processing mismatched matches for NC_060934.1:
+Sequence length: 134,758,134 bases
+
+Mismatch Progress (2025-02-13 22:25:10.978186):
+Processed 13/24 chromosomes (54.17%)
+Total bases processed: 1.13 Gb
+Current speed: 89,594 bases/second
+
+Processing mismatched matches for NC_060935.1:
+Sequence length: 135,127,769 bases
+
+Mismatch Progress (2025-02-13 22:25:35.645505):
+Processed 14/24 chromosomes (58.33%)
+Total bases processed: 1.27 Gb
+Current speed: 88,421 bases/second
+Found 1 mismatched matches in NC_060935.1
+
+Processing mismatched matches for NC_060932.1:
+Sequence length: 146,259,331 bases
+
+Mismatch Progress (2025-02-13 22:27:33.561640):
+Processed 15/24 chromosomes (62.50%)
+Total bases processed: 1.41 Gb
+Current speed: 88,761 bases/second
+Found 1 mismatched matches in NC_060932.1
+
+Processing mismatched matches for NC_060933.1:
+Sequence length: 150,617,247 bases
+
+Mismatch Progress (2025-02-13 22:28:06.265940):
+Processed 16/24 chromosomes (66.67%)
+Total bases processed: 1.56 Gb
+Current speed: 89,659 bases/second
+
+Processing mismatched matches for NC_060947.1:
+Sequence length: 154,259,566 bases
+
+Mismatch Progress (2025-02-13 22:28:55.874382):
+Processed 17/24 chromosomes (70.83%)
+Total bases processed: 1.72 Gb
+Current speed: 89,466 bases/second
+
+Processing mismatched matches for NC_060931.1:
+Sequence length: 160,567,428 bases
+
+Mismatch Progress (2025-02-13 22:31:23.934339):
+Processed 18/24 chromosomes (75.00%)
+Total bases processed: 1.88 Gb
+Current speed: 85,467 bases/second
+Found 1 mismatched matches in NC_060931.1
+
+Processing mismatched matches for NC_060930.1:
+Sequence length: 172,126,628 bases
+
+Mismatch Progress (2025-02-13 22:31:36.772847):
+Processed 19/24 chromosomes (79.17%)
+Total bases processed: 2.05 Gb
+Current speed: 90,968 bases/second
+Found 2 mismatched matches in NC_060930.1
+
+Processing mismatched matches for NC_060929.1:
+Sequence length: 182,045,439 bases
+
+Mismatch Progress (2025-02-13 22:33:39.403243):
+Processed 20/24 chromosomes (83.33%)
+Total bases processed: 2.23 Gb
+Current speed: 90,324 bases/second
+Found 1 mismatched matches in NC_060929.1
+
+Processing mismatched matches for NC_060928.1:
+Sequence length: 193,574,945 bases
+
+Mismatch Progress (2025-02-13 22:35:44.035589):
+Processed 21/24 chromosomes (87.50%)
+Total bases processed: 2.43 Gb
+Current speed: 90,422 bases/second
+Found 1 mismatched matches in NC_060928.1
+
+Processing mismatched matches for NC_060927.1:
+Sequence length: 201,105,948 bases
+
+Mismatch Progress (2025-02-13 22:37:30.141782):
+Processed 22/24 chromosomes (91.67%)
+Total bases processed: 2.63 Gb
+Current speed: 89,474 bases/second
+Found 1 mismatched matches in NC_060927.1
+
+Phase 2 Complete:
+Total mismatched matches found: 18
+Time taken: 2738.35 seconds
+
+Overall Results:
+Total exact matches: 2
+Total mismatched matches: 18
+Total runtime: 2811.46 seconds
+	Command being timed: "python3 genome_search.py human_2.zip pattern.fna 40"
+	User time (seconds): 35566.91
+	System time (seconds): 44.89
+	Percent of CPU this job got: 1266%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 46:51.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3598644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14035193
+	Voluntary context switches: 764971
+	Involuntary context switches: 29029
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
