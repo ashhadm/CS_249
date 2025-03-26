@@ -21,8 +21,8 @@ Additionally, I performed a real-world use case analysis comparing human gut and
 ├── blast_classification.ipynb         # Task 1.4: BLAST comparison
 ├── kmer_index_classification.ipynb    # Task 2.1-2.2: K-mer index implementation
 ├── minimizer_classification.ipynb     # Task 2.3: Minimizer implementation
-├── kraken2_comparison.sh              # Task 3.1: Kraken2 comparison script
-├── kraken2_realworld.sh               # Task 3.2: Real-world samples script
+├── kraken_comparison              # Task 3.1: Kraken2 comparison script
+├── sra.sh               # Task 3.2: Real-world samples script
 ├── metagenomic_analysis.ipynb         # Task 3.2: Analysis of real-world data
 ├── report.pdf                         # Full assignment report
 └── README.md                          # This readme file
@@ -95,7 +95,7 @@ for accession in SRR11412973 SRR11412976 SRR11412979 SRR11412980 SRR11412984 SRR
 done
 ```
 
-Alternatively, you can run the `kraken2_realworld.sh` script which includes the data download steps.
+Alternatively, you can run the `sra.sh` script which includes the data download steps.
 
 ## Implementation Details
 
@@ -129,13 +129,13 @@ Alternatively, you can run the `kraken2_realworld.sh` script which includes the 
 
 ### Task 3: Real-world Data and Tools
 
-#### Kraken2 Comparison (`kraken2_comparison.sh`)
+#### Kraken2 Comparison (`kraken_comparison`)
 - Custom Kraken2 database with the 5 reference genomes
 - Optimized parameters for more exact-like matching
 - Performance measurements (time, memory, classification rate)
 - Comparison with custom implementations
 
-#### Real-world Use Case (`kraken2_realworld.sh` and `metagenomic_analysis.ipynb`)
+#### Real-world Use Case (`sra.sh` and `metagenomic_analysis.ipynb`)
 - Analysis of human gut (SRR11412*) and wastewater (SRR21907*) samples
 - Taxonomic profiling at genus level using Kraken2
 - Statistical analysis (PCA, hierarchical clustering, discriminating taxa)
@@ -163,12 +163,12 @@ The Kraken2 comparison and real-world analysis scripts can be run as follows:
 
 ```bash
 # Make scripts executable
-chmod +x kraken2_comparison.sh
-chmod +x kraken2_realworld.sh
+chmod +x kraken_comparison
+chmod +x sra.sh
 
 # Run scripts
-./kraken2_comparison.sh
-./kraken2_realworld.sh
+./kraken_comparison
+./sra.sh
 ```
 
 ### Data Requirements
