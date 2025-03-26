@@ -21,8 +21,8 @@ Additionally, I performed a real-world use case analysis comparing human gut and
 ├── blast_classification.ipynb         # Task 1.4: BLAST comparison
 ├── kmer_index_classification.ipynb    # Task 2.1-2.2: K-mer index implementation
 ├── minimizer_classification.ipynb     # Task 2.3: Minimizer implementation
-├── kraken_comparison              # Task 3.1: Kraken2 comparison script
-├── sra.sh               # Task 3.2: Real-world samples script
+├── kraken_comparison                  # Task 3.1: Kraken2 comparison script
+├── sra.sh                             # Task 3.2: Real-world samples script
 ├── metagenomic_analysis.ipynb         # Task 3.2: Analysis of real-world data
 ├── report.pdf                         # Full assignment report
 └── README.md                          # This readme file
