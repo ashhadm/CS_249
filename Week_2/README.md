@@ -28,6 +28,75 @@ Additionally, I performed a real-world use case analysis comparing human gut and
 └── README.md                          # This readme file
 ```
 
+## Data Download and Preparation
+
+### Reference Genomes
+
+Download the five bacterial reference genomes from NCBI using the following accessions:
+
+```bash
+# Create a directory for genomes
+mkdir -p reference_genomes
+cd reference_genomes
+
+# Download the reference genomes using NCBI's FTP service
+# E. coli K-12 MG1655
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz -O e_coli.fna.gz
+
+# B. subtilis 168
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/009/045/GCF_000009045.1_ASM904v1/GCF_000009045.1_ASM904v1_genomic.fna.gz -O b_subtilis.fna.gz
+
+# P. aeruginosa PAO1
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/765/GCF_000006765.1_ASM676v1/GCF_000006765.1_ASM676v1_genomic.fna.gz -O p_aeruginosa.fna.gz
+
+# S. aureus NCTC 8325
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/013/425/GCF_000013425.1_ASM1342v1/GCF_000013425.1_ASM1342v1_genomic.fna.gz -O s_aureus.fna.gz
+
+# M. tuberculosis H37Rv
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/195/955/GCF_000195955.2_ASM19595v2/GCF_000195955.2_ASM19595v2_genomic.fna.gz -O m_tuberculosis.fna.gz
+
+# Decompress the downloaded files
+gunzip *.fna.gz
+```
+
+### Simulated Read Datasets
+
+Download the simulated read datasets from the GitHub repository mentioned in the assignment:
+
+```bash
+# Create a directory for the read data
+mkdir -p read_data
+cd read_data
+
+# Download simulated reads (error-free and error-containing)
+wget https://github.com/bio-ontology-research-group/cs249-2025/raw/main/project1-data/simulated_reads_no_errors_10k_R1.fastq
+wget https://github.com/bio-ontology-research-group/cs249-2025/raw/main/project1-data/simulated_reads_no_errors_10k_R2.fastq
+wget https://github.com/bio-ontology-research-group/cs249-2025/raw/main/project1-data/simulated_reads_miseq_10k_R1.fastq
+wget https://github.com/bio-ontology-research-group/cs249-2025/raw/main/project1-data/simulated_reads_miseq_10k_R2.fastq
+```
+
+### Real-world Metagenomic Samples
+
+For Task 3.2, download the SRA accessions using the SRA Toolkit:
+
+```bash
+# Install SRA Toolkit if needed
+# For Ubuntu: sudo apt-get install sra-toolkit
+# For Conda: conda install -c bioconda sra-toolkit
+
+# Create a directory for SRA data
+mkdir -p sra_data
+cd sra_data
+
+# Download the SRA samples using prefetch and fastq-dump
+for accession in SRR11412973 SRR11412976 SRR11412979 SRR11412980 SRR11412984 SRR21907296 SRR21907303 SRR21907307 SRR21907332 SRR21907330; do
+    prefetch $accession
+    fastq-dump --split-files --gzip $accession
+done
+```
+
+Alternatively, you can run the `kraken2_realworld.sh` script which includes the data download steps.
+
 ## Implementation Details
 
 ### Task 1: Metagenome Classification by String Matching
