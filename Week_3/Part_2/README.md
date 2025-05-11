@@ -140,6 +140,8 @@ The requirements for Task 2 have been largely fulfilled:
 
 The Hifiasm-based assembly of the Scincus mitranus genome has produced a high-quality reference with excellent contiguity and accuracy. The assembly meets the assignment requirement of a QV score greater than 40, despite challenges with some evaluation tools. This reference genome provides a solid foundation for future genetic and evolutionary studies of this desert-adapted reptile species.
 
+The assembly can be found at: https://drive.google.com/drive/folders/1l5ghBRS_WiRL4pyBb_b-cxv7b82Lk4SH?usp=drive_link
+
 ## Repository Structure
 
 ```
